@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Siz dam oling. <br> Men siz uchun hisoblayman :)</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="input" placeholder="nima hisoblay janob?" >
+        <button id="first" value="1" onclick="printNumber(this.value)">1</button>
+        <button id="second" value="2" onclick="printNumber(this.value)">2</button>
+        <button id="third" value="3" onclick="printNumber(this.value)">3</button>
+        <button id="divide" value="/" onclick="printNumber(this.value)">/</button>
+        <button id="fourth" value="4" onclick="printNumber(this.value)">4</button>
+        <button id="fifth" value="5" onclick="printNumber(this.value)">5</button>
+        <button id="sixth" value="6" onclick="printNumber(this.value)">6</button>
+        <button id="multiply" value="*" onclick="printNumber(this.value)">*</button>
+        <button id="seventh" value="7" onclick="printNumber(this.value)">7</button>
+        <button id="eighth" value="8" onclick="printNumber(this.value)">8</button>
+        <button id="nineth" value="9" onclick="printNumber(this.value)">9</button>
+        <button id="minus" value="-" onclick="printNumber(this.value)">-</button>
+        <button id="zero" value="0" onclick="printNumber(this.value)">0</button>
+        <button id="power" value='^' onclick="printNumber(this.value)">^</button> 
+                    
+        <button id="plus" value="+" onclick="printNumber(this.value)">+</button> 
+        <button id="back" onclick="back()">&#8592</button>
+        <button id="C" onclick="tozalash(this.value)">Cl</button>
+        <button id="equal" onclick="answer()">=</button>        
+    </div>
+  
+</body>
+</html>

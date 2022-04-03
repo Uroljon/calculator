@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(7, 6, 6, 0.637);
+    background-image: url(sun.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    border: 5px solid rgb(2, 27, 255);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 200px;
+    background-color: rgba(41, 40, 48, 0.521);
+}
+#input{
+    width: 340px;
+    height: 60px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;   
+    font-size: 27pt ; 
+    color: black;
+    
+}
+#input::placeholder{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    border: none;
+    width: 70px;
+    height: 50px;
+    font-size: 24pt;
+    margin: 5px;
+    border-radius: 7px;
+    background-color: #0026ff;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    border:1px solid white;
+
+}
+#zero{
+    width: 155px ;
+}
+#equal{
+    width: 153px ;
+    font-weight: bold;
+    border: 1px solid white ;
+}
+#back{
+    width: 85px ;
+    font-weight: bolder;
+    float: left;
+    margin-left: 14px;
+    
+}
+#C{
+    width: 50px;
+    
+}
